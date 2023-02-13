@@ -1,0 +1,200 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5{
+  font-family: "Montserrat-Bold";
+
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* heading */
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.Big-heading {
+  font: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#title {
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15%;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* section */
+.colored-section {
+  background-color: #6096B4;
+  color: #000000;
+}
+
+.white-section {
+  backgroung-color:#fff;
+}
+/* navigation bar */
+.navbar {
+  padding-bottom: 4.5rem;;
+}
+
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 20px;
+  margin-left: 100px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family:"Montserrat-Light";
+}
+
+
+/* title image */
+
+.title-image{
+  width:22%;
+  transform: rotate(0deg);
+  position: absolute;
+}
+
+
+/* testimonial */
+
+#testimonials {
+  padding: 11% 10%;
+  background-color: #6096B4;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+}
+
+/* Media Query Breakpoint */
+@media (max-width:1026px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position:static;
+    transform:(0deg);
+  }
+}
+
+
+/* skills */
+
+.skill-hd {
+  color: #fff;
+  font-style:oblique;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.skill-p {
+  color: #000000;
+  text-align: left;
+  padding-top: 20px;
+}
+
+.skill-image {
+  width: 70%;
+  padding-top: 20px;
+}
+
+.skill-low {
+  color:#000000;
+  text-align: center;
+  padding-top: 20px;
+}
+.my-sq {
+  background-color: #F5F5F5;
+
+}
+
+.skill-s {
+  color: #000000;
+  text-align: left;
+  padding-top: 20px;
+}
+
+.skill-sqimages {
+  width: 70%;
+  padding-top:20px;
+}
+.skill-ex {
+  color: #000000;
+  text-align: left;
+  padding-top: 20px;
+}
+
+.skill-au {
+  color: #000000;
+  text-align: left;
+  padding-top: 20px;
+}
+
+.tab-part {
+  background-color: #F5F5F5;
+}
+
+
+/* contact */
+
+.cont-in {
+  background-color: #6096B4;
+}
+
+.cont-sec {
+  color: #fff;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.cont-para {
+  color: #000000;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.cont-pa {
+  color: #000000;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.cont-phd {
+  color: #000000;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
